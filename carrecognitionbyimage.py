@@ -26,7 +26,7 @@ cars = car_tracker.detectMultiScale(black_white_only)
 
 
 #this outputs coordinates of the cars in our image in form of arrays,we will use the array data to draw rectangles around the cars
-print(cars)
+#print(cars)
 
 #draw a rectangle to enclose the car and mark the area around it....for each  of the 4 coordinates to be assigned into x,y,w,h
 for (x,y,w,h) in cars:

@@ -35,6 +35,9 @@ while True:
 
     cv2.imshow('OUR CAR RECOGNITION SOFTWARE', frame)
 
-    cv2.waitKey(1)
+    key=cv2.waitKey(1)
+
+    if key==81 or key==113 or key==27 or key==8:
+       break
 
 webcam.release()
