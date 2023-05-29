@@ -1,6 +1,6 @@
 import cv2
 
-video = cv2.VideoCapture('/Users/bethwel/Desktop/pedestandcars.mp4')
+video = cv2.VideoCapture('/Users/bethwel/Desktop/vehicle-recognition/pedestandcars.mp4')
 
 classifier_for_cars = '/Users/bethwel/Desktop/vehicle-recognition/car_detector.xml'
 classifier_for_pedestrians = '/Users/bethwel/Desktop/vehicle-recognition/haarcascade_fullbody.xml'
@@ -33,7 +33,7 @@ while True:
 
     
 
-    cv2.imshow('OUR CAR RECOGNITION SOFTWARE', frame )
+    cv2.imshow('BETHWEL KIPRUTO\'S VEHICLE AND PEDESTRIAN RECOGNITION SOFTWARE', frame )
 
     cv2.waitKey(1)
 
